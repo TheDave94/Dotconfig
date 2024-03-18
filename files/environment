@@ -4,10 +4,10 @@
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 
-GBM_BACKEND=nvidia-drm
-__GLX_VENDOR_LIBRARY_NAME=nvidia
+#GBM_BACKEND=nvidia-drm
+#__GLX_VENDOR_LIBRARY_NAME=nvidia
 ENABLE_VKBASALT=1
-LIBVA_DRIVER_NAME=nvidia
+#LIBVA_DRIVER_NAME=nvidia
 --enable-features=UseOzonePlatform
 --ozone-platform-hint=auto
 --ozone-platform=wayland
