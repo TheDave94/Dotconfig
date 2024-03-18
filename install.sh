@@ -30,8 +30,8 @@ echo "-------------------------------------------------"
 cp -r files/makepkg.conf $HOME/.dotconf/
 cp -r files/.zshrc $HOME/.dotconf/
 cp -r files/.aliases $HOME/.dotconf/
-cp -r files/nvidia.conf $HOME/.dotconf
-cp -r files/root.conf $HOME/.dotconf
+#cp -r files/nvidia.conf $HOME/.dotconf
+#cp -r files/root.conf $HOME/.dotconf
 cp -r files/environment $HOME/.dotconf
 cp -r files/mkinitcpio.conf $HOME/.dotconf
 cp -r files/lazy.lua $HOME/.dotconf
@@ -168,8 +168,8 @@ ln -sf $HOME/.dotconf/.aliases $HOME/
 ln -sf $HOME/.dotconf/lazy.lua $HOME/.config/nvim/lua/config/
 ln -sf $HOME/.dotconf/options.lua $HOME/.config/nvim/lua/config/
 ln -sf $HOME/.dotconf/custom.lua $HOME/.config/nvim/lua/plugins/
-sudo ln -sf $HOME/.dotconf/root.conf /etc/cmdline.d/
-sudo ln -sf $HOME/.dotconf/nvidia.conf /etc/modprobe.d/
+#sudo ln -sf $HOME/.dotconf/root.conf /etc/cmdline.d/
+#sudo ln -sf $HOME/.dotconf/nvidia.conf /etc/modprobe.d/
 sudo ln -sf $HOME/.dotconf/environment /etc/
 sudo ln -sf $HOME/.dotconf/mkinitcpio.conf /etc/
 sudo ln -sf $HOME/.dotconf/makepkg.conf /etc/
@@ -198,9 +198,9 @@ sudo ufw enable
 sudo systemctl enable ufw.service
 
 # nVidia Services
-sudo systemctl enable nvidia-suspend.service
-sudo systemctl enable nvidia-hibernate.service
-sudo systemctl enable nvidia-resume.service
+#sudo systemctl enable nvidia-suspend.service
+#sudo systemctl enable nvidia-hibernate.service
+#sudo systemctl enable nvidia-resume.service
 
 
 echo "---------------------------------------------------------------"
