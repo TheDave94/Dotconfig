@@ -243,7 +243,7 @@ sdks=(
     "clang"
     "ninja"
     "gdb"
-    "nodejs"
+    "nodejs-lts-iron"
     "npm"
     "python"
 )
@@ -315,16 +315,17 @@ echo "---------------------------------------------------------------"
 aur_apps=(
     "protonmail-bridge"
     "protonmail-desktop"
-    "betterbird-de-bin"
     "beeper-latest-bin"
     "onlyoffice-bin"
     "brave-bin"
     "visual-studio-code-bin"
     "intellij-idea-ultimate-edition"
     "brother-hll2340dw"
-    "microsoft-edge-stable-bin"
     "localsend"
     "wps-office"
+    "microsoft-edge-dev-bin"
+    "betterbird-de-bin"
+    "threema-desktop"
 )
 
 aur_sdks=(
