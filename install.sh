@@ -239,7 +239,6 @@ apps=(
 )
 
 sdks=(
-    sdks=(
     "cmake"
     "clang"
     "ninja"
