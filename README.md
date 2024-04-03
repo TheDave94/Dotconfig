@@ -36,7 +36,7 @@ $ # sudo systemctl enable nvidia-resume.service
 ## 3 How to run?
 
 ```shell
-$ git clone https://github.com/f0xb17/dotconfig.git
+$ git clone https://github.com/thedave94˘/dotconfig.git
 $ cd dotconfig 
 
 $ ./install.sh --gnome
