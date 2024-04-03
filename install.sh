@@ -239,13 +239,16 @@ apps=(
 )
 
 sdks=(
+    sdks=(
     "cmake"
     "clang"
     "ninja"
     "gdb"
-    "nodejs-lts-iron"
+    "nodejs"
     "npm"
     "python"
+    "jdk-openjdk"
+    "kotlin"
 )
 
 fonts=(
