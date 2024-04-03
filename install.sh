@@ -328,12 +328,9 @@ aur_apps=(
     "wps-office"
     "microsoft-edge-dev-bin"
     "betterbird-de-bin"
-    "threema-desktop"
 )
 
-aur_sdks=(
-    "jdk-temurin"
-)
+aur_sdks=()
 
 aur_fonts=(
     "sf-fonts"
