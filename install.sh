@@ -102,9 +102,9 @@ packages=(
     "zip"
     "p7zip"
     "libheif"
-    "neovim"
     "ntfs-3g"
     "neofetch"
+    "neovim"
 )
 
 for package in "${packages[@]}"; do
