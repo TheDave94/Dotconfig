@@ -1,11 +1,18 @@
 #!/bin/sh
 
 aur_apps=(
-    "visual-studio-code-bin"
-    "brother-mfc-l2710dw"
-    "etcher-bin"
-    "zoom"
+   "protonmail-bridge"
+    "protonmail-desktop"
+    "beeper-latest-bin"
+    "onlyoffice-bin"
     "brave-bin"
+    "visual-studio-code-bin"
+    "intellij-idea-ultimate-edition"
+    "brother-hll2340dw"
+    "localsend"
+    "wps-office"
+    "mullvad-browser-bin"
+    "betterbird-de-bin"
 )
 
 # ---------------------------------------------------------------------------
