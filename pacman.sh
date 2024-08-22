@@ -3,10 +3,16 @@
 apps=(
     "bitwarden"
     "discord"
-    "vlc"
-    "obs-studio"
-    "solaar"
+    "flameshot"
     "gufw"
+    "nextcloud-client"
+    "obs-studio"
+    "reaper"
+    "solaar"
+    "supercollider"
+    "vlc"
+    
+    
     "alacritty"
 )
 
