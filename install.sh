@@ -71,7 +71,7 @@ chsh -s $(which zsh) # Setting zsh as standard shell. Root password needed!
 
 # Performing nVidia Specific Installation
 
-./nvidia.sh
+#./nvidia.sh
 
 # ---------------------------------------------------------------------------
 
