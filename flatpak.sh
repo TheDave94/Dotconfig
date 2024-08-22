@@ -2,7 +2,7 @@
 
 flatpaks=(
     "com.spotify.Client"
-    "com.anydesk.Anydesk"
+    "com.mastermindzh.tidal-hifi"
     "io.github.shiftey.Desktop"
 )
 
@@ -24,3 +24,10 @@ if [[ "$1" == "--gnome" ]]; then
     echo "----------------------------------"
     flatpak install flathub com.mattjakeman.ExtensionManager
 fi
+
+# ---------------------------------------------------------------------------
+
+# Install Threema Desktop Beta
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install --from https://releases.threema.ch/flatpak/threema-desktop/ch.threema.threema-desktop.flatpakref
+flatpak override ch.threema.threema-desktop --filesystem=host
